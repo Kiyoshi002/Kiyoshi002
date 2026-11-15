@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="KIYOSHI - banner" xmlns:c2pa="http://c2pa.org/manifest">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#05030a"/>
+    <stop offset="0.6" stop-color="#0d0b14"/>
+    <stop offset="1" stop-color="#1e0b3a"/>
+  </linearGradient>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#000" opacity="0.35"/>
+  </pattern>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#8b5cf6" stroke-opacity="0.08"/>
+  </pattern>
+  <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">
+    <stop offset="0.5" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.75"/>
+  </radialGradient>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<style>
+  text { font-family: 'Courier New', Courier, monospace; }
+  .rain { font-size: 14px; fill: #8b5cf6; opacity: 0.0; animation-name: fall; animation-iteration-count: infinite; animation-timing-function: linear; }
+  @keyframes fall {
+    0%   { transform: translateY(0);     opacity: 0; }
+    10%  { opacity: .5; }
+    90%  { opacity: .25; }
+    100% { transform: translateY(420px); opacity: 0; }
+  }
+  .title { font-size: 104px; font-weight: 900; letter-spacing: 14px; text-anchor: middle; }
+  .t-main { fill: #f3e8ff; }
+  .t-pur  { fill: #a855f7; mix-blend-mode: screen; animation: gl1 3.2s infinite steps(1); }
+  .t-cyan { fill: #22d3ee; mix-blend-mode: screen; animation: gl2 3.2s infinite steps(1); }
+  .t-main-g { animation: jit 3.2s infinite steps(1); }
+  @keyframes gl1 {
+    0%,100% { transform: translate(-3px,0); }
+    30% { transform: translate(-3px,0); }
+    31% { transform: translate(-14px,2px); }
+    33% { transform: translate(8px,-3px); }
+    35% { transform: translate(-3px,0); }
+    71% { transform: translate(-18px,0); }
+    73% { transform: translate(-3px,0); }
+  }
+  @keyframes gl2 {
+    0%,100% { transform: translate(3px,0); }
+    30% { transform: translate(3px,0); }
+    31% { transform: translate(14px,-2px); }
+    33% { transform: translate(-8px,3px); }
+    35% { transform: translate(3px,0); }
+    71% { transform: translate(18px,0); }
+    73% { transform: translate(3px,0); }
+  }
+  @keyframes jit {
+    0%,100% { transform: translate(0,0); }
+    31% { transform: translate(4px,-1px); }
+    33% { transform: translate(-4px,1px); }
+    35% { transform: translate(0,0); }
+    72% { transform: translate(2px,0); }
+    73% { transform: translate(0,0); }
+  }
+  .tag { font-size: 13px; fill: #a78bfa; letter-spacing: 2px; }
+  .blink { animation: bl 1s infinite steps(1); }
+  @keyframes bl { 0%,50% { opacity: 1; } 51%,100% { opacity: 0; } }
+  .flick { animation: fk 4.5s infinite steps(1); }
+  @keyframes fk { 0%,100% { opacity: 1; } 20% { opacity: .3; } 21% { opacity: 1; } 60% { opacity: .5; } 61% { opacity: 1; } }
+  .bar { fill: #22d3ee; opacity: 0; animation: tear 3.2s infinite steps(1); }
+  @keyframes tear {
+    0%,100% { opacity: 0; }
+    31% { opacity: .35; transform: translateY(0); }
+    32% { opacity: .35; transform: translateY(26px); }
+    33% { opacity: 0; }
+    71% { opacity: .3; transform: translateY(-18px); }
+    72% { opacity: 0; }
+  }
+  .sweep { fill: #8b5cf6; opacity: .08; animation: sw 6s linear infinite; }
+  @keyframes sw { 0% { transform: translateY(-40px); } 100% { transform: translateY(300px); } }
+</style>
+
+<rect width="900" height="260" fill="url(#bg)"/>
+<rect width="900" height="260" fill="url(#grid)"/>
+<text class="rain" style="animation-duration:7.9s;animation-delay:-7.3s" y="-120"><tspan x="27" dy="16">#</tspan><tspan x="27" dy="16">{</tspan><tspan x="27" dy="16">1</tspan><tspan x="27" dy="16">ア</tspan><tspan x="27" dy="16">*</tspan><tspan x="27" dy="16">&gt;</tspan><tspan x="27" dy="16">イ</tspan><tspan x="27" dy="16">コ</tspan></text>
+<text class="rain" style="animation-duration:7.1s;animation-delay:-6.6s" y="-120"><tspan x="73" dy="16">ア</tspan><tspan x="73" dy="16">$</tspan><tspan x="73" dy="16">$</tspan><tspan x="73" dy="16">ア</tspan><tspan x="73" dy="16">カ</tspan><tspan x="73" dy="16">ア</tspan><tspan x="73" dy="16">&gt;</tspan></text>
+<text class="rain" style="animation-duration:9.9s;animation-delay:-0.4s" y="-120"><tspan x="120" dy="16">{</tspan><tspan x="120" dy="16">{</tspan><tspan x="120" dy="16">/</tspan><tspan x="120" dy="16">1</tspan><tspan x="120" dy="16">/</tspan><tspan x="120" dy="16">/</tspan><tspan x="120" dy="16">#</tspan><tspan x="120" dy="16">1</tspan></text>
+<text class="rain" style="animation-duration:5.9s;animation-delay:-4.7s" y="-120"><tspan x="171" dy="16">$</tspan><tspan x="171" dy="16">ウ</tspan><tspan x="171" dy="16">&gt;</tspan><tspan x="171" dy="16">イ</tspan><tspan x="171" dy="16">/</tspan><tspan x="171" dy="16">ク</tspan><tspan x="171" dy="16">&gt;</tspan><tspan x="171" dy="16">*</tspan><tspan x="171" dy="16">}</tspan></text>
+<text class="rain" style="animation-duration:8.4s;animation-delay:-3.4s" y="-120"><tspan x="223" dy="16">イ</tspan><tspan x="223" dy="16">&gt;</tspan><tspan x="223" dy="16">[</tspan><tspan x="223" dy="16">ア</tspan><tspan x="223" dy="16">/</tspan><tspan x="223" dy="16">1</tspan><tspan x="223" dy="16">\</tspan><tspan x="223" dy="16">オ</tspan><tspan x="223" dy="16">&amp;</tspan></text>
+<text class="rain" style="animation-duration:5.4s;animation-delay:-2.4s" y="-120"><tspan x="277" dy="16">/</tspan><tspan x="277" dy="16">%</tspan><tspan x="277" dy="16">コ</tspan><tspan x="277" dy="16">ク</tspan><tspan x="277" dy="16">カ</tspan><tspan x="277" dy="16">+</tspan><tspan x="277" dy="16">エ</tspan><tspan x="277" dy="16">[</tspan><tspan x="277" dy="16">=</tspan><tspan x="277" dy="16">カ</tspan></text>
+<text class="rain" style="animation-duration:8.8s;animation-delay:-1.2s" y="-120"><tspan x="332" dy="16">]</tspan><tspan x="332" dy="16">%</tspan><tspan x="332" dy="16">ク</tspan><tspan x="332" dy="16">\</tspan><tspan x="332" dy="16">ア</tspan><tspan x="332" dy="16">イ</tspan><tspan x="332" dy="16">&lt;</tspan><tspan x="332" dy="16">$</tspan><tspan x="332" dy="16">エ</tspan></text>
+<text class="rain" style="animation-duration:8.5s;animation-delay:-4.8s" y="-120"><tspan x="382" dy="16">1</tspan><tspan x="382" dy="16">}</tspan><tspan x="382" dy="16">ア</tspan><tspan x="382" dy="16">=</tspan><tspan x="382" dy="16">&gt;</tspan><tspan x="382" dy="16">/</tspan><tspan x="382" dy="16">+</tspan><tspan x="382" dy="16">*</tspan><tspan x="382" dy="16">ケ</tspan><tspan x="382" dy="16">ケ</tspan></text>
+<text class="rain" style="animation-duration:5.3s;animation-delay:-5.6s" y="-120"><tspan x="431" dy="16">*</tspan><tspan x="431" dy="16">ア</tspan><tspan x="431" dy="16">キ</tspan><tspan x="431" dy="16">&amp;</tspan><tspan x="431" dy="16">[</tspan><tspan x="431" dy="16">}</tspan><tspan x="431" dy="16">ア</tspan></text>
+<text class="rain" style="animation-duration:5.6s;animation-delay:-0.5s" y="-120"><tspan x="481" dy="16">[</tspan><tspan x="481" dy="16">#</tspan><tspan x="481" dy="16">}</tspan><tspan x="481" dy="16">コ</tspan><tspan x="481" dy="16">0</tspan><tspan x="481" dy="16">%</tspan><tspan x="481" dy="16">コ</tspan><tspan x="481" dy="16">エ</tspan><tspan x="481" dy="16">\</tspan></text>
+<text class="rain" style="animation-duration:7.0s;animation-delay:-2.2s" y="-120"><tspan x="526" dy="16">]</tspan><tspan x="526" dy="16">カ</tspan><tspan x="526" dy="16">#</tspan><tspan x="526" dy="16">#</tspan><tspan x="526" dy="16">&amp;</tspan><tspan x="526" dy="16">ア</tspan><tspan x="526" dy="16">エ</tspan><tspan x="526" dy="16">%</tspan></text>
+<text class="rain" style="animation-duration:5.9s;animation-delay:-1.9s" y="-120"><tspan x="571" dy="16">&gt;</tspan><tspan x="571" dy="16">キ</tspan><tspan x="571" dy="16">[</tspan><tspan x="571" dy="16">$</tspan><tspan x="571" dy="16">コ</tspan><tspan x="571" dy="16">}</tspan><tspan x="571" dy="16">#</tspan><tspan x="571" dy="16">カ</tspan><tspan x="571" dy="16">ウ</tspan><tspan x="571" dy="16">ア</tspan></text>
+<text class="rain" style="animation-duration:5.7s;animation-delay:-4.3s" y="-120"><tspan x="624" dy="16">&amp;</tspan><tspan x="624" dy="16">*</tspan><tspan x="624" dy="16">/</tspan><tspan x="624" dy="16">エ</tspan><tspan x="624" dy="16">キ</tspan><tspan x="624" dy="16">ク</tspan><tspan x="624" dy="16">0</tspan></text>
+<text class="rain" style="animation-duration:9.5s;animation-delay:-6.2s" y="-120"><tspan x="677" dy="16">[</tspan><tspan x="677" dy="16">&lt;</tspan><tspan x="677" dy="16">\</tspan><tspan x="677" dy="16">{</tspan><tspan x="677" dy="16">}</tspan><tspan x="677" dy="16">]</tspan><tspan x="677" dy="16">1</tspan><tspan x="677" dy="16">%</tspan></text>
+<text class="rain" style="animation-duration:7.2s;animation-delay:-0.9s" y="-120"><tspan x="729" dy="16">#</tspan><tspan x="729" dy="16">#</tspan><tspan x="729" dy="16">イ</tspan><tspan x="729" dy="16">&amp;</tspan><tspan x="729" dy="16">{</tspan><tspan x="729" dy="16">#</tspan><tspan x="729" dy="16">1</tspan><tspan x="729" dy="16">オ</tspan><tspan x="729" dy="16">ア</tspan><tspan x="729" dy="16">オ</tspan></text>
+<text class="rain" style="animation-duration:5.1s;animation-delay:-7.0s" y="-120"><tspan x="768" dy="16">0</tspan><tspan x="768" dy="16">/</tspan><tspan x="768" dy="16">ウ</tspan><tspan x="768" dy="16">&gt;</tspan><tspan x="768" dy="16">イ</tspan><tspan x="768" dy="16">コ</tspan><tspan x="768" dy="16">\</tspan></text>
+<text class="rain" style="animation-duration:9.2s;animation-delay:-7.9s" y="-120"><tspan x="829" dy="16">{</tspan><tspan x="829" dy="16">キ</tspan><tspan x="829" dy="16">コ</tspan><tspan x="829" dy="16">\</tspan><tspan x="829" dy="16">コ</tspan><tspan x="829" dy="16">&amp;</tspan><tspan x="829" dy="16">イ</tspan><tspan x="829" dy="16">イ</tspan></text>
+<text class="rain" style="animation-duration:9.1s;animation-delay:-1.3s" y="-120"><tspan x="881" dy="16">&amp;</tspan><tspan x="881" dy="16">ク</tspan><tspan x="881" dy="16">ア</tspan><tspan x="881" dy="16">ウ</tspan><tspan x="881" dy="16">イ</tspan><tspan x="881" dy="16">]</tspan><tspan x="881" dy="16">ケ</tspan><tspan x="881" dy="16">]</tspan><tspan x="881" dy="16">キ</tspan><tspan x="881" dy="16">&amp;</tspan></text>
+<rect class="sweep" width="900" height="40"/>
+
+<!-- barra superior estilo terminal -->
+<rect x="0" y="0" width="900" height="26" fill="#000" opacity="0.55"/>
+<circle cx="16" cy="13" r="4" fill="#a855f7"/><circle cx="32" cy="13" r="4" fill="#6d28d9"/><circle cx="48" cy="13" r="4" fill="#4c1d95"/>
+<text class="tag flick" x="70" y="17">root@kiyoshi:~# ./access --target=mainframe</text>
+<text class="tag" x="884" y="17" text-anchor="end" fill="#22d3ee" style="fill:#22d3ee">[ ACCESS GRANTED ]</text>
+
+<!-- título com glitch RGB -->
+<g filter="url(#glow)">
+  <text class="title t-pur"  x="450" y="150">KIYOSHI</text>
+  <text class="title t-cyan" x="450" y="150">KIYOSHI</text>
+  <g class="t-main-g"><text class="title t-main" x="450" y="150">KIYOSHI</text></g>
+</g>
+<rect class="bar" x="170" y="95" width="560" height="14"/>
+
+<!-- subtítulo -->
+<text x="450" y="196" text-anchor="middle" class="tag" style="font-size:17px;fill:#c4b5fd">&gt; dev em formação  |  futuro cyber security<tspan class="blink">_</tspan></text>
+<text x="450" y="226" text-anchor="middle" class="tag" style="font-size:12px;fill:#6d28d9;letter-spacing:6px">[ HACK THE LEARNING CURVE ]</text>
+
+<rect width="900" height="260" fill="url(#scan)"/>
+<rect width="900" height="260" fill="url(#vig)"/>
+<rect x="1" y="1" width="898" height="258" fill="none" stroke="#8b5cf6" stroke-opacity="0.5"/>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo4ODY0YjYwMy00ZWVmLTRjMzMtOTIyMS1iODBiYjMxOTQyMjkAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaCk/G3e/DKQsG0PFNzSogxIAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo3NmFhNTE5Yi1lMGNjLTRiMmItYmJmZi1jMmE4N2JlZjkyNGZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoJoVIS7AAofcleH5cEQh0XAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggw167fPbw8IDfRnr9q1bTOOhD8AP9jd007oM0WapExxqkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaFY0hZlgsMHtneIxW5JopWQAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIH47w97GJXzCq+4N2eKDVfNCXWUaWO9E5G6HHImJIXA6ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GS5lZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjg4NjRiNjAzLTRlZWYtNGMzMy05MjIxLWI4MGJiMzE5NDIyOS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmY0NDFkZjg4LTBhMzQtNDU5NS1iNmQ2LTVmMTc0YWNkN2NmMHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDDXrt89vDwgN9Gev2rVtM46EPwA/2N3TTugzRZqkTHGqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg5WSUNoy+1KanAebH3VNOx4bnx4k2bDy0H4Xskm9efAiiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg9AgxhSyHTCDMTBXeKtPuuDxBaWIKmaymeriMJ8GUYod0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQNhoUIj6MY9aJ8fHv0popxdZphE/jQWB+FyzjWC5OsMXlY3wunPNz0IRB+QfngmIOrCG0QgSISwDPL+8jwN8aRo=</c2pa:manifest></metadata></svg>
