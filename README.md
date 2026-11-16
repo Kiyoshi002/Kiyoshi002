@@ -70,10 +70,8 @@ idioma     : pt-BR
 
 ### 🎧 Tocando agora
 
-[![spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=31yoc72o435uy5ve45zkf4f5klte&cover_image=true&theme=default&show_offline=false&background_color=0d0b14&bar_color=a855f7&bar_color_cover=true&interchange=false)](https://github.com/kittinan/spotify-github-profile)
+[![spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=31yoc72o435uy5ve45zkf4f5klte&cover_image=true&theme=default&show_online=false&background_color=0d0b14&bar_color=a855f7&bar_color_cover=true&interchange=false)](https://github.com/kiyoshi002/spotify-github-profile)
 
-</div>
----
 
 ##  Contribuições
 
