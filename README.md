@@ -75,7 +75,6 @@ idioma     : pt-BR
 
 ##  Contribuições
 
-<!-- Precisa de uma GitHub Action: veja github.com/Platane/snk. Se não quiser, apague esta seção. -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/kiyoshi002/kiyoshi002/output/github-contribution-grid-snake-dark.svg" alt="snake" />
 </div>
@@ -87,8 +86,8 @@ idioma     : pt-BR
 ### 📡 Contato
 
 [![GitHub](https://img.shields.io/badge/GitHub-kiyoshi002-0d0b14?style=for-the-badge&logo=github&logoColor=a855f7)](https://github.com/kiyoshi002)
-<!-- [![Instagram](https://img.shields.io/badge/Instagram-@seu.usuario-0d0b14?style=for-the-badge&logo=instagram&logoColor=a855f7)](https://instagram.com/seu.usuario) -->
-<!-- [![E-mail](https://img.shields.io/badge/E--mail-seu@email.com-0d0b14?style=for-the-badge&logo=gmail&logoColor=a855f7)](mailto:seu@email.com) -->
+<!-- [![Instagram](https://img.shields.io/badge/Instagram-@brayner.zip-0d0b14?style=for-the-badge&logo=instagram&logoColor=a855f7)](https://instagram.com/Brayner.zip) -->
+<!-- [![E-mail](https://img.shields.io/badge/braynerl45@outlook.com-0d0b14?style=for-the-badge&logo=gmail&logoColor=a855f7)](mailto:braynerl45@outlook.com) -->
 
 <sub>`root@kiyoshi:~# sudo apt install conhecimento` — [ conexão encerrada ]</sub>
 
