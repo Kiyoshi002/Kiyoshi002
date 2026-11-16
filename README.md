@@ -58,15 +58,21 @@ idioma     : pt-BR
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=kiyoshi002&show_icons=true&hide_border=true&bg_color=0d0b14&title_color=a855f7&icon_color=8b5cf6&text_color=e9d5ff&ring_color=a855f7" alt="stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiyoshi002&layout=compact&hide_border=true&bg_color=0d0b14&title_color=a855f7&text_color=e9d5ff" alt="linguagens" />
+[![Instagram](https://img.shields.io/badge/Instagram-@brayner.zip-0d0b14?style=for-the-badge&logo=instagram&logoColor=a855f7)](https://instagram.com/brayner.zip)
+
 
 <br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=kiyoshi002&hide_border=true&background=0d0b14&ring=a855f7&fire=8b5cf6&currStreakLabel=a855f7&sideLabels=a855f7&currStreakNum=e9d5ff&sideNums=e9d5ff&dates=a78bfa" alt="streak" />
 
 </div>
+<div align="center">
 
+### 🎧 Tocando agora
+
+[![spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=31yoc72o435uy5ve45zkf4f5klte&cover_image=true&theme=default&show_offline=false&background_color=0d0b14&bar_color=a855f7&bar_color_cover=true&interchange=false)](https://github.com/kittinan/spotify-github-profile)
+
+</div>
 ---
 
 ##  Contribuições
@@ -86,7 +92,7 @@ idioma     : pt-BR
 <!-- [![Instagram](https://img.shields.io/badge/Instagram-@seu.usuario-0d0b14?style=for-the-badge&logo=instagram&logoColor=a855f7)](https://instagram.com/seu.usuario) -->
 <!-- [![E-mail](https://img.shields.io/badge/E--mail-seu@email.com-0d0b14?style=for-the-badge&logo=gmail&logoColor=a855f7)](mailto:seu@email.com) -->
 
-<sub>`root@kiyoshi:~# sudo apt install conhecimento` 💜 — [ conexão encerrada ]</sub>
+<sub>`root@kiyoshi:~# sudo apt install conhecimento` — [ conexão encerrada ]</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:05030a&height=110&section=footer" alt="rodapé" />
 
